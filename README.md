@@ -1,4 +1,4 @@
-# Angular Practice: To-Do List Application
+# To-DoList-with-api-fetching
 
 ## Objective
 
@@ -49,4 +49,3 @@ Create a small to-do list application using Angular. The application allows user
     ```
 
 4. Open your browser and navigate to `http://localhost:4200`.
-# To-DoList-with-api-fetching
