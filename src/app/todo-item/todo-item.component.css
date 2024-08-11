@@ -1,0 +1,29 @@
+
+ th,  td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'ebuchet MS', sans-serif;
+}
+
+ th {
+  background-color: #f2f2f2;
+}
+
+ button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'ebuchet MS', sans-serif;
+}
+
+ button:hover {
+  background-color: #363535;
+}
+
+.completed-task {
+  font-weight: bold;
+}

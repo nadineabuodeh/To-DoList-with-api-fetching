@@ -1,0 +1,24 @@
+
+  <td [ngClass]="{'completed-task': todo.complete}">
+    @if (!todo.isEditing) {
+      {{ todo.title }}
+    }
+    @if (todo.isEditing) {
+      <input [(ngModel)]="todo.editTitle" class="task-input">
+    }
+  </td>
+  <td>
+    <input type="checkbox" [checked]="todo.complete" (change)="onCompleteTask()" />
+  </td>
+  <td>
+    @if (!todo.isEditing) {
+      <button (click)="onEditTask()">Edit</button>
+    }
+    @if (todo.isEditing) {
+      <button (click)="onSaveTask()">Save</button>
+      <button (click)="onCancelEdit()">Cancel</button>
+    }
+  </td>
+  <td>
+    <button (click)="onDeleteTask($event)">Delete</button>
+  </td>
